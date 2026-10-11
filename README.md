@@ -1,4 +1,4 @@
-# Project 0 — Search
+# Search
 
 A front-end recreation of Google's Search, Image Search, and Advanced Search pages built as part of Harvard's CS50 Web Programming with Python and JavaScript.
 
@@ -9,6 +9,19 @@ A front-end recreation of Google's Search, Image Search, and Advanced Search pag
 * Google Advanced Search page
 * "I'm Feeling Lucky" button support
 * Pure HTML and CSS implementation
+
+## Structure
+
+```bash
+cs50w-search
+├── index.html
+├── images.html
+├── advanced.html
+├── assets
+│   └── wc-doodle-2026.gif
+├── README.md
+└── style.css
+```
 
 ## Pages
 
@@ -69,9 +82,16 @@ https://www.google.com/search?as_q=harvard+cs50&as_epq=web+programming
 
 ## Running Locally
 
-Open `index.html` directly in a browser or serve the project using a local development server.
+Clone the repository:
 
-Example:
+```bash
+git clone https://github.com/bassam-alaraby/cs50w-search.git
+cd cs50w-search
+```
+
+Open `index.html` directly in a browser.
+
+Or serve the project using a local development server:
 
 ```bash
 python -m http.server
